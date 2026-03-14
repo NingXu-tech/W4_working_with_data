@@ -1,0 +1,4 @@
+This is my W4 practice.
+I'm learning how to read and write files.
+Now I practising the append code.
+Using with open is the safest way.

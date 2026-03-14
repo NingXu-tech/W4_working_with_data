@@ -1,0 +1,28 @@
+{
+    "living": {
+        "capacity": 2,
+        "people": [
+            "James"
+        ],
+        "exits": {
+            "north": "kitchen",
+            "outside": "garden"
+        }
+    },
+    "kitchen": {
+        "capacity": 1,
+        "people": [],
+        "exits": {
+            "south": "living"
+        }
+    },
+    "garden": {
+        "capacity": 3,
+        "people": [
+            "Sue"
+        ],
+        "exits": {
+            "inside": "living"
+        }
+    }
+}
