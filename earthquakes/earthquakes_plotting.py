@@ -18,8 +18,6 @@ def get_data():
         )
     text=responce.text
     quakes=json.loads(text)
-    with open("earthquakes_data","w",encoding="utf-8")as f:
-        json.dump(quakes,f,indent=4)
     return quakes
 
 def get_year(earthquake):
